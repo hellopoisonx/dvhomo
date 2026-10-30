@@ -1,0 +1,21 @@
+.{
+    .name = .dvhomo,
+    .version = "0.0.1",
+    .dependencies = .{
+        .mihomo_zig = .{
+            .url = "git+https://github.com/hellopoisonx/mihomo-zig?ref=main#427fc58542f2fb77904b58f9962b34516f63f4f6",
+            .hash = "mihomo_zig-0.0.1-tMUHPWYpAwA4_XjXLfcx7_rQHyAAMkVZcN4fOO0OxsJG",
+        },
+        .goose = .{
+            .url = "git+https://github.com/luxluth/goose.git?ref=master#8e24c3c864a27d26d8cf6f9dfee92951eb47a7a7",
+            .hash = "goose-4.0.1-e9MzMJg3BABXxlhF04kBiycvfMTgQNn4VuI3I7yU6PWw",
+        },
+        .dvui = .{
+            .url = "git+https://github.com/david-vanderson/dvui?ref=main#0b409a1332525658c8bc7a274a2c221e2602c269",
+            .hash = "dvui-0.6.0-dev-AQFJmVSWBAHHPFe4ozRUFx0_4pEF2BSEhL25YwZjOZGE",
+        },
+    },
+    .minimum_zig_version = "0.17.0",
+    .paths = .{""},
+    .fingerprint = 0xe472c3526c204881,
+}

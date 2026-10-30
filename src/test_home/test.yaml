@@ -1,0 +1,11 @@
+mixed-port: 17890
+log-level: debug
+mode: rule
+proxy-groups:
+  - name: E2E
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+rules:
+  - MATCH,E2E
